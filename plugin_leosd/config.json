@@ -1,0 +1,137 @@
+{
+  "start":{
+    "host" : "127.0.0.1",
+    "port" : 7860,
+    "use_https" : false
+  },
+  "defaults": {
+    "params": {
+      "sampler_name": "DPM++ 2M Karras",
+      "steps": 20,
+      "width": 512,
+      "height": 512,
+      "cfg_scale": 7,
+      "prompt":"masterpiece, best quality",
+      "negative_prompt": "(((nsfw))), (((nude))), (((naked))), (((porn))), (((censored))), worst quality, normal quality, low quality, low res, blurry, text, watermark, logo, banner, extra digits, cropped, jpeg artifacts, signature, username, error, sketch ,duplicate, ugly, monochrome, horror, geometry, mutation, disgusting"
+    },
+    "options": {
+      "sd_model_checkpoint": "anythingV322B2B.f3Ie"
+    }
+  },
+  "rules": [
+    {
+      "keywords": [
+        "二次元",
+        "ecy"
+      ],
+      "params": {
+        "sampler_name": "DPM++ 2M Karras",
+        "steps": 20,
+        "width": 512,
+        "height": 512,
+        "cfg_scale": 7,
+        "prompt":"masterpiece, best quality",
+        "negative_prompt": "(((nsfw))), (((nude))), (((naked))), (((porn))), (((censored))), worst quality, normal quality, low quality, low res, blurry, text, watermark, logo, banner, extra digits, cropped, jpeg artifacts, signature, username, error, sketch ,duplicate, ugly, monochrome, horror, geometry, mutation, disgusting"
+      },
+      "options": {
+        "sd_model_checkpoint": "anythingV322B2B.f3Ie"
+      },
+      "desc": "二次元模型"
+    },
+    {
+      "keywords": [
+        "魔幻",
+        "mh"
+      ],
+      "params": {
+        "sampler_name": "DPM++ 2M Karras",
+        "steps": 20,
+        "width": 512,
+        "height": 512,
+        "cfg_scale": 7,
+        "prompt":"masterpiece, best quality",
+        "negative_prompt": "(((nsfw))), (((nude))), (((naked))), (((porn))), (((censored))), worst quality, normal quality, low quality, low res, blurry, text, watermark, logo, banner, extra digits, cropped, jpeg artifacts, signature, username, error, sketch ,duplicate, ugly, monochrome, horror, geometry, mutation, disgusting"
+      },
+      "options": {
+        "sd_model_checkpoint": "cheeseDaddys_41"
+      },
+      "desc": "魔幻模型"
+    },
+    {
+      "keywords": [
+        "真人",
+        "zr"
+      ],
+      "params": {
+        "sampler_name": "DPM++ 2M Karras",
+        "steps": 20,
+        "width": 512,
+        "height": 512,
+        "cfg_scale": 7,
+        "prompt":"masterpiece, best quality",
+        "negative_prompt": "(((nsfw))), (((nude))), (((naked))), (((porn))), (((censored))), worst quality, normal quality, low quality, low res, blurry, text, watermark, logo, banner, extra digits, cropped, jpeg artifacts, signature, username, error, sketch ,duplicate, ugly, monochrome, horror, geometry, mutation, disgusting"
+      },
+      "options": {
+        "sd_model_checkpoint": "cyberrealistic_classicV21"
+      },
+      "desc": "真人模型"
+    },
+    {
+      "keywords": [
+        "亚洲人",
+        "yzr"
+      ],
+      "params": {
+        "sampler_name": "DPM++ 2M Karras",
+        "steps": 20,
+        "width": 512,
+        "height": 512,
+        "cfg_scale": 7,
+        "prompt":"masterpiece, best quality",
+        "negative_prompt": "(((NSFW))), (((nude))), (((naked))), (((porn))), (((censored))), (worst_quality:2.0), lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry"
+      },
+      "options": {
+        "sd_model_checkpoint": "beautifulRealistic_v7"
+      },
+      "desc": "亚洲人模型"
+    },
+    {
+      "keywords": [
+        "刘亦菲",
+        "lyf"
+      ],
+      "params": {
+        "sampler_name": "DPM++ 2M Karras",
+        "steps": 20,
+        "width": 512,
+        "height": 512,
+        "cfg_scale": 7,
+        "prompt":"<lora:liuyifei:0.4>, masterpiece, best quality",
+        "negative_prompt": "NSFW, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry,"
+      },
+      "options": {
+        "sd_model_checkpoint": "beautifulRealistic_v7"
+      },
+      "desc": "刘亦菲模型"
+    },
+    {
+      "keywords": [
+        "建筑",
+        "jz"
+      ],
+      "params": {
+        "sampler_name": "DPM++ 2M Karras",
+        "steps": 20,
+        "width": 512,
+        "height": 512,
+        "cfg_scale": 4.5,
+        "prompt":"masterpiece, best quality, extremely detailed CG unity 8k wallpaper",
+        "negative_prompt": "(((nsfw))), (((nude))), (((naked))), (((porn))), (((censored))), signature, soft, blurry, drawing, sketch, poor quality, ugly, text, type, word, logo, pixelated, low resolution, saturated, high contrast, oversharpened"
+      },
+      "options": {
+        "sd_model_checkpoint": "dvarchMultiPrompt_dvarchExterior"
+      },
+      "desc": "建筑模型"
+    }
+  ]
+}
